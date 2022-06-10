@@ -1,0 +1,11 @@
+a = 3
+b = 4
+
+add = a + b
+print(add)
+
+substract = a - b
+print(substract)
+
+product = a * b
+print(product)
