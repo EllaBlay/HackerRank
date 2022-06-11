@@ -1,0 +1,12 @@
+x = int(input("Enter a number for x: "))
+y = int(input("Enter a number for y: "))
+z = int(input("Enter a number for z: "))
+n = int(input("Enter a number for n: "))
+list = []
+for i in range(x+1):
+    for j in range (y+1):
+        for k in range (z+1):
+              if(i+j+k !=n):
+                  list.append([i,j,k])
+print(list)
+
