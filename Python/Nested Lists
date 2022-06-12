@@ -1,0 +1,14 @@
+if __name__ == '__main__':
+    score_list = []
+    grade_list = []
+    
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        score_list+=[score]
+        grade_list+=[[name,score]]
+    second_lowest = sorted(list(set(score_list)))[1]
+    for a,c in sorted(grade_list):
+        if c == second_lowest:
+            print(a)
+        
